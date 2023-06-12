@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    background-color:lightslategrey;
+    width: 300px;
+    padding-bottom: 25px;
+}
+h2, button {
+    color: white;
+    text-align: center;
+    background-color: green;
+}
+
+.button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+button {
+        display: flex;
+        color: white;
+        width: 250px;
+        justify-content: center;
+        margin-left: 25px;
+        align-items: center;
+    }
+
+
+input, textarea {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    margin: 25px;
+}
+/* .why {
+    min-height: 25px;
+    min-width: 300px;
+    background-color: lightslategray;
+} */
